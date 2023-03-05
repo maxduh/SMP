@@ -1,6 +1,6 @@
 let randomNumber = Math.random();
 // check if it is less than or equal to 0.01
-if (randomNumber <= 0.1) {
+if (randomNumber <= 0.025) {
     // redirect to a rick roll link
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }

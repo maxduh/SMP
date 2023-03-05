@@ -1,3 +1,9 @@
+let randomNumber = Math.random();
+// check if it is less than or equal to 0.01
+if (randomNumber <= 0.1) {
+    // redirect to a rick roll link
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+}
 names = ["Getting Wood",
     "Benchmarking",
     "Time to Mine!",
@@ -1939,6 +1945,8 @@ var id = Math.floor(Math.random() * names.length);
 var s_name = names[id];
 var s_desc = desc[id];
 i = 0;
+
+
 setTimeout(typeWriter, 0);
 function typeWriter() {
     if (i < 170) {

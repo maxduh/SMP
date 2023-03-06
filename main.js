@@ -1,6 +1,6 @@
 let randomNumber = Math.random();
 // check if it is less than or equal to 0.01
-if (randomNumber <= 0.1) {
+if (randomNumber <= 0.025) {
     // redirect to a rick roll link
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
@@ -1949,7 +1949,7 @@ i = 0;
 
 setTimeout(typeWriter, 0);
 function typeWriter() {
-    if (i < 170) {
+    if (i < 175) {
         i++;
         nameElement.textContent = s_name.substring(0, i);
         descElement.textContent = s_desc.substring(0 - s_name.length, i - s_name.length);

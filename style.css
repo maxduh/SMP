@@ -92,6 +92,7 @@ footer {
   text-align: center;
 }
 
+
 .advancement {
   width: 75vh;
   height: 30vh;
@@ -104,8 +105,8 @@ footer {
 }
 
 .adv-name {
-  margin-top: -27.5vh;
   color: gold;
+  margin-top: -27.5vh;
   margin-left: 5vh;
   margin-right: 5vh;
   height: 2.75vh;
@@ -117,4 +118,32 @@ footer {
   margin-left: 5vh;
   margin-right: 5vh;
   height: 8.25vh;
+}
+
+
+@media only screen and (max-width: 83.3vh) {
+  .advancement {
+    width: 90vw;
+    font-size: 3.25vw;
+  }
+
+  .adv-img {
+    width: 90vw;
+  }
+
+  .adv-name {
+    color: gold;
+    margin-top: -32.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 2.75vw;
+  }
+
+  .adv-desc {
+    margin-top: 2vw;
+    margin-bottom: 50vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 8.25vw;
+  }
 }
